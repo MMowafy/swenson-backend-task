@@ -9,7 +9,7 @@ go get -v  ./...
 
 docker-compose up --build 
 
-## after postgres is up exec inside container to create database
+## after postgres container is up exec inside container to create database
 
 docker exec -it postgres sh
 
