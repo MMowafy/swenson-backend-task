@@ -41,6 +41,7 @@ psql -h localhost -U postgres -w -c "create database swenson_db;"
 exit
 
 ## hit API
+curl --location --request GET 'http://localhost:8080/coffee-products?productType=pod&&packSize=84'
 
 http://localhost:8080/coffee-products?productType=machine
 http://localhost:8080/coffee-products?productType=machine&&waterLineCompatible=true
