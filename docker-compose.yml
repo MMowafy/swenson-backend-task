@@ -1,0 +1,36 @@
+version: "3"
+services:
+  app:
+    container_name: app
+    build: .
+    ports:
+      - "8080:8080"
+    restart: on-failure
+    volumes:
+      - ~/.ssh:/root/.ssh:ro
+      - ./data/git/.gitconfig:/root/.gitconfig
+      - ./:/var/www:cached
+    depends_on:
+      - postgres
+    networks:
+      - swenson
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      PGDATA: /var/lib/postgresql/data/db
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data/db
+      - ./data/config/postgresql/postgresql.conf:/var/lib/postgresql/data/postgresql.conf
+    ports:
+      - "5432:5432"
+    networks:
+      - swenson
+
+networks:
+  swenson:
+    driver: bridge

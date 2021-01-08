@@ -1,0 +1,207 @@
+[
+  {
+    "sku": "CM001",
+    "productType": "small machine, base model",
+    "waterLineCompatible": false
+  },
+  {
+    "sku": "CM002",
+    "productType": "small machine, premium model",
+    "waterLineCompatible": false
+  },
+  {
+    "sku": "CM003",
+    "productType": "small machine, deluxe model,",
+    "waterLineCompatible": true
+  },
+  {
+    "sku": "CM101",
+    "productType": "large machine, base model",
+    "waterLineCompatible": false
+  },
+  {
+    "sku": "CM102",
+    "productType": "large machine, premium model",
+    "waterLineCompatible": true
+  },
+  {
+    "sku": "CM103",
+    "productType": "large machine, deluxe model",
+    "waterLineCompatible": true
+  },
+  {
+    "sku": "EM001",
+    "productType": "espresso machine, base model",
+    "waterLineCompatible": false
+  },
+  {
+    "sku": "EM002",
+    "productType": "espresso machine, premium model",
+    "waterLineCompatible": false,
+    "flavor": "",
+    "packSize": 0
+  },
+  {
+    "sku": "EM003",
+    "productType": "espresso machine, deluxe model",
+    "waterLineCompatible": true,
+    "flavor": "",
+    "packSize": 0
+  },
+  {
+    "sku": "CP001",
+    "productType": "small coffee pod",
+    "flavor": "vanilla",
+    "packSize": 12
+  },
+  {
+    "sku": "CP003",
+    "productType": "small coffee pod",
+    "flavor": "vanilla",
+    "packSize": 36
+  },
+  {
+    "sku": "CP011",
+    "productType": "small coffee pod",
+    "flavor": "caramel",
+    "packSize": 12
+  },
+  {
+    "sku": "CP013",
+    "productType": "small coffee pod",
+    "flavor": "caramel",
+    "packSize": 36
+  },
+  {
+    "sku": "CP021",
+    "productType": "small coffee pod",
+    "flavor": "psl",
+    "packSize": 12
+  },
+  {
+    "sku": "CP023",
+    "productType": "small coffee pod",
+    "flavor": "psl",
+    "packSize": 36
+  },
+  {
+    "sku": "CP031",
+    "productType": "small coffee pod",
+    "flavor": "mocha",
+    "packSize": 12
+  },
+  {
+    "sku": "CP033",
+    "productType": "small coffee pod",
+    "flavor": "mocha",
+    "packSize": 36
+  },
+  {
+    "sku": "CP041",
+    "productType": "small coffee pod",
+    "flavor": "hazelnut",
+    "packSize": 12
+  },
+  {
+    "sku": "CP043",
+    "productType": "small coffee pod",
+    "flavor": "hazelnut",
+    "packSize": 36
+  },
+  {
+    "sku": "CP101",
+    "productType": "large coffee pod",
+    "flavor": "vanilla",
+    "packSize": 12
+  },
+  {
+    "sku": "CP103",
+    "productType": "large coffee pod",
+    "flavor": "vanilla",
+    "packSize": 36
+  },
+  {
+    "sku": "CP111",
+    "productType": "large coffee pod",
+    "flavor": "caramel",
+    "packSize": 12
+  },
+  {
+    "sku": "CP113",
+    "productType": "large coffee pod",
+    "flavor": "caramel",
+    "packSize": 36
+  },
+  {
+    "sku": "CP121",
+    "productType": "large coffee pod",
+    "flavor": "psl",
+    "packSize": 12
+  },
+  {
+    "sku": "CP123",
+    "productType": "large coffee pod",
+    "flavor": "psl",
+    "packSize": 36
+  },
+  {
+    "sku": "CP131",
+    "productType": "large coffee pod",
+    "flavor": "mocha",
+    "packSize": 12
+  },
+  {
+    "sku": "CP133",
+    "productType": "large coffee pod",
+    "flavor": "mocha",
+    "packSize": 36
+  },
+  {
+    "sku": "CP141",
+    "productType": "large coffee pod",
+    "flavor": "hazelnut",
+    "packSize": 12
+  },
+  {
+    "sku": "CP143",
+    "productType": "large coffee pod",
+    "flavor": "hazelnut",
+    "packSize": 36
+  },
+  {
+    "sku": "EP003",
+    "productType": "espresso pod",
+    "flavor": "vanilla",
+    "packSize": 36
+  },
+  {
+    "sku": "EP005",
+    "productType": "espresso pod",
+    "flavor": "vanilla",
+    "packSize": 60
+  },
+  {
+    "sku": "EP007",
+    "productType": "espresso pod",
+    "flavor": "vanilla",
+    "packSize": 84
+  },
+  {
+    "sku": "EP013",
+    "productType": "espresso pod",
+    "flavor": "caramel",
+    "packSize": 36
+  },
+  {
+    "sku": "EP015",
+    "productType": "espresso pod",
+    "flavor": "caramel",
+    "packSize": 60
+  },
+  {
+    "sku": "EP017",
+    "productType": "espresso pod",
+    "flavor": "caramel",
+    "packSize": 84
+  }
+]
